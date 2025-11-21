@@ -5,14 +5,15 @@ LearnLink Kenya CBE is a web-based platform designed to support competency-based
 
 Features
 
-User Authentication & Roles: Secure login for students, teachers, and admins
+> User Authentication & Roles: Secure login for students, teachers, and admins
 
-Course Management: Teachers can create, update, and manage course content
+> Course Management: Teachers can create, update, and manage course content
 
-Assessments: Students can submit assignments, take quizzes, and receive feedback
+> Assessments: Students can submit assignments, take quizzes, and receive feedback
 
-Real-Time Communication: Notifications and messaging between users
+> Real-Time Communication: Notifications and messaging between users
 
-Progress Tracking: Monitor student performance and competency achievement
+> Progress Tracking: Monitor student performance and competency achievement
 
-Responsive UI: Accessible on both desktop and mobile devices
+> Responsive UI: Accessible on both desktop and mobile devices
+
