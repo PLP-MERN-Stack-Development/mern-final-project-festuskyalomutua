@@ -18,25 +18,29 @@ Features
 6.Responsive UI: Accessible on both desktop and mobile devices
 
 learnlink-kenya-cbe/
+│
 ├── client/                     # React frontend
+│   │
 │   ├── public/                 # Static files (index.html, images, etc.)
 │   ├── src/                    # React source code
 │   │   ├── components/         # Reusable UI components
 │   │   ├── pages/              # Page-level components
-│   │   ├── context/            # React context providers for state management
+│   │   ├── context/            # React context providers
 │   │   ├── hooks/              # Custom React hooks
-│   │   └── socket/             # Socket.io client setup for real-time features
+│   │   └── socket/             # Socket.io client setup
 │   └── package.json             # Client dependencies and scripts
+│
 ├── server/                     # Node.js backend
+│   │
 │   ├── config/                 # Configuration files (DB connection, environment)
-│   ├── controllers/            # Route handlers for API endpoints
+│   ├── controllers/            # API route handlers
 │   ├── middleware/             # Express middleware functions
 │   ├── models/                 # Mongoose schemas and models
 │   ├── routes/                 # API route definitions
 │   ├── utils/                  # Utility/helper functions
-│   └── server.js               # Entry point for the server
+│   └── server.js               # Server entry point
+│
 ├── README.md                   # Project documentation
 └── .env                        # Environment variables (server configs, secrets)
-
 
 
