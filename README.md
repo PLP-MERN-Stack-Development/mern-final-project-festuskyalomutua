@@ -43,5 +43,72 @@ learnlink-kenya-cbe/
 ├── README.md                   # Project documentation
 
 
+Getting Started
+Prerequisites
+
+Node.js (v18+)
+
+npm or yarn
+
+MongoDB (local or Atlas)
+
+Git
+
+Installation
+# Clone the repository
+git clone https://github.com/festuskyalomutua/learnlink-kenya-cbe.git
+cd learnlink-kenya-cbe
+
+# Install server dependencies
+cd server
+npm install
+
+# Install client dependencies
+cd ../client
+npm install
+
+Environment Setup
+
+Create a .env file in the server folder:
+
+PORT=5000
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+
+Running the Application
+# Start backend server
+cd server
+npm start
+
+# Start frontend client
+cd ../client
+npm start
+
+
+Server: http://localhost:5000
+
+Client: http://localhost:3000
+
+Deployment
+
+Build React client for production:
+
+cd client
+npm run build
+
+
+Serve the build folder with Express or deploy separately on Vercel/Render.
+
+Use environment variables for database connections and secrets.
+
+Authors
+
+Festus Kyalo Mutua
+
+GitHub: festuskyalomutua
+
+License
+
+Educational project for Competency-Based Education (CBE) support in Kenya.
 
 
