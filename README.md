@@ -41,6 +41,7 @@ learnlink-kenya-cbe/
 │   └── server.js               # Server entry point
 │
 ├── README.md                   # Project documentation
-└── .env                        # Environment variables (server configs, secrets)
+
+
 
 
